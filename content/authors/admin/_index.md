@@ -55,7 +55,7 @@ interests:
 education:
   - area: master’s candidate in CSIF (Computer Science and Information Engineering)
     institution: NUTC/NTCUST (National Taichung University of Science and Technology)
-    date_start: 2022
+    date_start: 2022-
     # date_end: 
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
@@ -64,8 +64,8 @@ education:
     #   url: 'https://example.com'
   - area: B.B.A. in Applied Statistics
     institution: Massachusetts Institute of Technology
-    date_start: 2017
-    date_end: 2021
+    date_start: 2017-
+    date_end: 2021-
     summary: |2-
       GPA: 4.0/4.3
 
@@ -82,8 +82,8 @@ work:
     company_name: NUTC/NTCUST
     company_url: ''
     company_logo: ''
-    date_start: 2018
-    date_end: 2025
+    date_start: 2018-
+    date_end: 2025-
     summary: |
       Responsibilities include:
       - Migrated 48 Minitab textbook exercises into Python code using Pandas, NumPy, Statsmodels, and Matplotlib, automating end-to-end statistical workflows and reducing analysis time by 37%. 
@@ -101,13 +101,13 @@ skills:
         icon: devicon/python
       - name: Web crawler
         description: 'requests, bs4'
-        icon: 🕸
+        icon: 
       - name: git/github
         description: ''
         icon: brands/github
       - name: Workflow Integration
         description: 'Coordinate and integrate multiple AI tools for seamless collaboration.'
-        icon: 🛠️
+        icon: 
       - name: SQL
         description: ''
         # percent: 
@@ -152,15 +152,15 @@ skills:
       - name: Yoga
         description: ''
         percent: 
-        icon: 🧘
+        icon: 
       - name: penguin
         description: ''
         percent: 100
-        icon: 🐧
+        icon: 
       - name: play game
         description: ''
         percent: 
-        icon: 🎮
+        icon: 
 
 languages:
   - name: Chinese
