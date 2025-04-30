@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: 鄒佳蓁
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jia Zhen Zou
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jia Zhen
+last_name: Zou
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,75 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Science Learner
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: 
+    url: 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:jiazhenzou0711@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/x
+  #   url: 
+  # - icon: brands/instagram
+  #   url: 
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/hate20130527
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/jia-zhen-zou/
+  # - icon: academicons/google-scholar
+  #   url: 
+  # - icon: academicons/orcid
+  #   url: 
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Visualization
+  - Time Series Analysis
+  - Statistical Machine Learning
+  - Artificial Intelligence Applications
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  - area: master’s candidate in CSIF (Computer Science and Information Engineering)
+    institution: NUTC/NTCUST (National Taichung University of Science and Technology)
+    date_start: 2022
+    # date_end: 
+    # summary: |
+    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: B.B.A. in Applied Statistics
+    institution: Massachusetts Institute of Technology
+    date_start: 2017
+    date_end: 2021
+    summary: |2-
+      GPA: 4.0/4.3
+
+      Thesis on Study and Forecast of Cases of Flu and Their Complications. Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). Published in JCSA.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      url: 'https://www.airitilibrary.com/Article/Detail/05296528-202109-202109110010-202109110010-172-225'
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: TA in Applied Statistics
+    company_name: NUTC/NTCUST
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2018
+    date_end: 2025
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Migrated 48 Minitab textbook exercises into Python code using Pandas, NumPy, Statsmodels, and Matplotlib, automating end-to-end statistical workflows and reducing analysis time by 37%. 
+      - Graded and reviewed over 200 assignments and held 5+ one-on-one office-hour sessions, resulting in a 15% increase in average student grades.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,40 +97,77 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        # percent: 
+        icon: devicon/python
+      - name: Web crawler
+        description: 'requests, bs4'
+        icon: 🕸
+      - name: git/github
         description: ''
-        percent: 100
-        icon: chart-bar
+        icon: brands/github
+      - name: Workflow Integration
+        description: 'Coordinate and integrate multiple AI tools for seamless collaboration.'
+        icon: 🛠️
       - name: SQL
         description: ''
-        percent: 40
-        icon: circle-stack
+        # percent: 
+        icon: devicon/sqlite
+      - name: R
+        description: ''
+        # percent: 
+        icon: devicon/r
+  - name: Tools and Libraries
+    items:
+      - name: Pandas
+        description: ''
+        icon: devicon/pandas
+      - name: Numpy
+        description: ''
+        icon: devicon/numpy
+      - name: Matplotlib
+        description: ''
+        icon: devicon/matplotlib
+      - name: Scikit-learn
+        description: ''
+        icon: devicon/scikitlearn
+      - name: Pytorch
+        description: ''
+        icon: devicon/pytorch
+      - name: SPSS
+        description: ''
+        icon: devicon/spss
+      - name: Minitab
+        description: ''
+        icon: devicon/minitab
+      - name: Tableau
+        description: ''
+        icon:
+      - name: PowerBI
+        description: ''
+        icon:
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Yoga
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        percent: 
+        icon: 🧘
+      - name: penguin
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: 🐧
+      - name: play game
         description: ''
-        percent: 80
-        icon: camera
+        percent: 
+        icon: 🎮
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    # percent:
+  - name: English
+    # percent: 
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
