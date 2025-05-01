@@ -53,23 +53,27 @@ interests:
   - Artificial Intelligence Applications
 
 education:
-  - area: master’s candidate in CSIF (Computer Science and Information Engineering)
-    institution: NUTC/NTCUST (National Taichung University of Science and Technology)
+  - area: master’s student in CSIF
+    institution: NUTC/NTCUST
     date_start: 2022-
     # date_end: 
-    # summary: |
-    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
+    summary: |
+      Thesis on _[Time Series]_. Supervised by [Prof ](https://). Presented papers at a [] conferences with the contributions being published in [] journals.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+
+      Courses included:
+      - Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.
+
   - area: B.B.A. in Applied Statistics
-    institution: Massachusetts Institute of Technology
+    institution: NUTC/NTCUST
     date_start: 2017-
     date_end: 2021-
-    summary: |2-
+    summary: |
       GPA: 4.0/4.3
 
-      Thesis on Study and Forecast of Cases of Flu and Their Complications. Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). Published in JCSA.
+      Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). Published in JCSA.
     button:
       text: 'Read Thesis'
       url: 'https://www.airitilibrary.com/Article/Detail/05296528-202109-202109110010-202109110010-172-225'
@@ -101,13 +105,13 @@ skills:
         icon: devicon/python
       - name: Web crawler
         description: 'requests, bs4'
-        icon: 
+        icon: window-maximize-solid
       - name: git/github
         description: ''
         icon: brands/github
       - name: Workflow Integration
         description: 'Coordinate and integrate multiple AI tools for seamless collaboration.'
-        icon: 
+        icon: circle-nodes-solid
       - name: SQL
         description: ''
         # percent: 
@@ -141,26 +145,26 @@ skills:
         icon: devicon/minitab
       - name: Tableau
         description: ''
-        icon:
+        icon: tableau-svgrepo-com
       - name: PowerBI
         description: ''
-        icon:
+        icon: powerbi-svgrepo-com
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Yoga
         description: ''
-        percent: 
-        icon: 
+        # percent: 
+        icon: yoga-svgrepo-com
       - name: penguin
         description: ''
-        percent: 100
-        icon: 
+        # percent:
+        icon: penguin-1-svgrepo-com
       - name: play game
         description: ''
-        percent: 
-        icon: 
+        # percent: 
+        icon: game-controller-svgrepo-com
 
 languages:
   - name: Chinese
@@ -174,33 +178,40 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 2024 TBIA Dataathon Champion
+    url: https://tbiadata.tw/zh-hant/news/detail/16
+    date: '2024-07'
+    awarder: TBIA
+    icon: favicon-32x32 (1)
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      **Object**:
+      This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
+
+      **Workflow**:
+      - **Data Acquisition**: Fetched species occurrence records (including longitude, latitude, and timestamp fields) from TBIA and iNaturalist APIs using Python.
+      - **Data Cleaning & Standardization**: Imputed or removed missing/anomalous values, normalized field formats, and validated spatial accuracy.
+      - **Interactive Visualization**: Developed a Tableau dashboard with dynamic filters for region and time, then embedded it into a web page.
+  - title: 'Artificial Intelligence Literacy - Specialist'
+    url: https://www2.gladworld.net/gladworld/CHT_AIL.php
+    # certificate_url: 
+    date: '2024-04'
+    awarder: GLAD
+    icon: favicon_1
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
+      - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
+      - AI Systems & Industry Applications: Smart City & Smart Home; Smart Medical Care & Public Health; Intelligent Education; New Retail & Customer Services; Intelligent Manufacturing; AI & Society Development
+  - title: 'Big Data Analyst-Associate Level'
+    url: https://www.ipas.org.tw/bda
+    # certificate_url: 
+    date: '2021-11'
+    awarder: iPAS
+    icon: favicon96x96
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      - Proficient in data-oriented programming: data structures & objects, relational/NoSQL databases, data import/export, functions & control flow, debugging & performance tuning.
+      - Skilled in data processing & analysis: data cleaning & summarization, feature transformation & extraction, big data concepts, probability & statistics fundamentals, exploratory data analysis (EDA), supervised & unsupervised learning.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a dedicated master’s candidate in Computer Science and Information Engineering at National Taichung University of Science and Technology, specializing in time series analysis, statistical machine learning, and data visualization. 
