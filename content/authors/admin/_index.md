@@ -55,7 +55,7 @@ interests:
 education:
   - area: master’s student in CSIF
     institution: NUTC/NTCUST
-    date_start: 2022-
+    date_start: 2022-09-01
     # date_end: 
     summary: |
       Thesis on _[Time Series]_. Supervised by [Prof ](https://). Presented papers at a [] conferences with the contributions being published in [] journals.
@@ -68,8 +68,8 @@ education:
 
   - area: B.B.A. in Applied Statistics
     institution: NUTC/NTCUST
-    date_start: 2017-
-    date_end: 2021-
+    date_start: 2017-09-01
+    date_end: 2021-06-30
     summary: |
       GPA: 4.0/4.3
 
@@ -86,8 +86,8 @@ work:
     company_name: NUTC/NTCUST
     company_url: ''
     company_logo: ''
-    date_start: 2018-
-    date_end: 2025-
+    date_start: 2018-09-01
+    date_end: 2025-05-31
     summary: |
       Responsibilities include:
       - Migrated 48 Minitab textbook exercises into Python code using Pandas, NumPy, Statsmodels, and Matplotlib, automating end-to-end statistical workflows and reducing analysis time by 37%. 
@@ -180,7 +180,7 @@ languages:
 awards:
   - title: 2024 TBIA Dataathon Champion
     url: https://tbiadata.tw/zh-hant/news/detail/16
-    date: '2024-07'
+    date: '2024-07-30'
     awarder: TBIA
     icon: favicon-32x32 (1)
     summary: |
@@ -194,7 +194,7 @@ awards:
   - title: 'Artificial Intelligence Literacy - Specialist'
     url: https://www2.gladworld.net/gladworld/CHT_AIL.php
     # certificate_url: 
-    date: '2024-04'
+    date: '2024-04-08'
     awarder: GLAD
     icon: favicon_1
     summary: |
@@ -204,7 +204,7 @@ awards:
   - title: 'Big Data Analyst-Associate Level'
     url: https://www.ipas.org.tw/bda
     # certificate_url: 
-    date: '2021-11'
+    date: '2021-11-30'
     awarder: iPAS
     icon: favicon96x96
     summary: |
