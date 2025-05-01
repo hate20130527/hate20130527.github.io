@@ -105,13 +105,13 @@ skills:
         icon: devicon/python
       - name: Web crawler
         description: 'requests, bs4'
-        icon: window-maximize-solid
+        icon: 'custom/webcrawler'
       - name: git/github
         description: ''
         icon: brands/github
       - name: Workflow Integration
         description: 'Coordinate and integrate multiple AI tools for seamless collaboration.'
-        icon: circle-nodes-solid
+        icon: 'custom/workflow'
       - name: SQL
         description: ''
         # percent: 
@@ -145,10 +145,10 @@ skills:
         icon: devicon/minitab
       - name: Tableau
         description: ''
-        icon: tableau-svgrepo-com
+        icon: 'custom/tableau'
       - name: PowerBI
         description: ''
-        icon: powerbi-svgrepo-com
+        icon: 'custom/powerbi'
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -156,15 +156,15 @@ skills:
       - name: Yoga
         description: ''
         # percent: 
-        icon: yoga-svgrepo-com
+        icon: 'custom/yoga'
       - name: penguin
         description: ''
         # percent:
-        icon: penguin-1-svgrepo-com
+        icon: 'custom/penguin'
       - name: play game
         description: ''
         # percent: 
-        icon: game-controller-svgrepo-com
+        icon: 'custom/game'
 
 languages:
   - name: Chinese
@@ -182,7 +182,7 @@ awards:
     url: https://tbiadata.tw/zh-hant/news/detail/16
     date: '2024-07-30'
     awarder: TBIA
-    icon: favicon-32x32 (1)
+    icon: 'custom/tbia'
     summary: |
       **Object**:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
@@ -196,7 +196,7 @@ awards:
     # certificate_url: 
     date: '2024-04-08'
     awarder: GLAD
-    icon: favicon_1
+    icon: 'custom/glad'
     summary: |
       - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
       - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
@@ -206,7 +206,7 @@ awards:
     # certificate_url: 
     date: '2021-11-30'
     awarder: iPAS
-    icon: favicon96x96
+    icon: 'custom/ipas'
     summary: |
       - Proficient in data-oriented programming: data structures & objects, relational/NoSQL databases, data import/export, functions & control flow, debugging & performance tuning.
       - Skilled in data processing & analysis: data cleaning & summarization, feature transformation & extraction, big data concepts, probability & statistics fundamentals, exploratory data analysis (EDA), supervised & unsupervised learning.
