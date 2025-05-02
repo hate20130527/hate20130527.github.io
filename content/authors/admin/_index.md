@@ -181,7 +181,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 2024 TBIA Dataathon Champion
+  - title: 	':1st_place_medal: 2024 TBIA Dataathon Champion'
     url: https://tbiadata.tw/zh-hant/news/detail/16
     date: '2024-07-30'
     awarder: TBIA
@@ -194,7 +194,7 @@ awards:
       - **Data Acquisition**: Fetched species occurrence records (including longitude, latitude, and timestamp fields) from TBIA and iNaturalist APIs using Python.
       - **Data Cleaning & Standardization**: Imputed or removed missing/anomalous values, normalized field formats, and validated spatial accuracy.
       - **Interactive Visualization**: Developed a Tableau dashboard with dynamic filters for region and time, then embedded it into a web page.
-  - title: 'Artificial Intelligence Literacy - Specialist'
+  - title: ':toolbox: Artificial Intelligence Literacy - Specialist'
     url: https://www2.gladworld.net/gladworld/CHT_AIL.php
     # certificate_url: 
     date: '2024-04-08'
@@ -204,7 +204,7 @@ awards:
       - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
       - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
       - AI Systems & Industry Applications: Smart City & Smart Home; Smart Medical Care & Public Health; Intelligent Education; New Retail & Customer Services; Intelligent Manufacturing; AI & Society Development
-  - title: 'Big Data Analyst-Associate Level'
+  - title: ':toolbox: Big Data Analyst-Associate Level'
     url: https://www.ipas.org.tw/bda
     # certificate_url: 
     date: '2021-11-30'
