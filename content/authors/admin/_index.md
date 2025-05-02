@@ -29,6 +29,7 @@ organizations:
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# emoji ref: https://gohugo.io/quick-reference/emojis/
 profiles:
   - icon: at-symbol
     url: 'mailto:jiazhenzou0711@gmail.com'
@@ -145,10 +146,12 @@ skills:
         icon: devicon/minitab
       - name: Tableau
         description: ''
-        icon: 'custom/tableau'
+        # icon: 'custom/tableau'
+        icon: :bar_chart:
       - name: PowerBI
         description: ''
-        icon: 'custom/powerbi'
+        # icon: 'custom/powerbi'
+        icon: :bar_chart:
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -182,7 +185,8 @@ awards:
     url: https://tbiadata.tw/zh-hant/news/detail/16
     date: '2024-07-30'
     awarder: TBIA
-    icon: 'custom/tbia'
+    # icon: 'custom/tbia'
+    icon: :1st_place_medal:
     summary: |
       **Object**:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
@@ -196,7 +200,8 @@ awards:
     # certificate_url: 
     date: '2024-04-08'
     awarder: GLAD
-    icon: 'custom/glad'
+    # icon: 'custom/glad'
+    icon: :toolbox:
     summary: |
       - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
       - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
@@ -206,13 +211,14 @@ awards:
     # certificate_url: 
     date: '2021-11-30'
     awarder: iPAS
-    icon: 'custom/ipas'
+    #icon: 'custom/ipas'
+    icon: :toolbox:
     summary: |
       - Proficient in data-oriented programming: data structures & objects, relational/NoSQL databases, data import/export, functions & control flow, debugging & performance tuning.
       - Skilled in data processing & analysis: data cleaning & summarization, feature transformation & extraction, big data concepts, probability & statistics fundamentals, exploratory data analysis (EDA), supervised & unsupervised learning.
 ---
 
 ## About Me
-> A rough start is the best place to start. :penguin:   
+>> A rough start is the best place to start. :penguin:   
 :telescope: I'm interested in machine learning and data visualization.    
 :seedling: I'm learning to build workflow automation.    
