@@ -59,10 +59,9 @@ education:
     date_start: 2022-09-01
     # date_end: 
     summary: |
-      Courses included:
-      - Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.
+      :book: Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
 
-      Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
+      :telescope: Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -74,11 +73,11 @@ education:
     date_start: 2017-09-01
     date_end: 2021-06-30
     summary: |
-      GPA: 4.0/4.3
-      Courses included:
-        - Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
+      GPA: 4.0/4.3   
 
-      Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
+      :book: Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
+
+      :telescope: Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
     # Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). 
     button:
       text: 'Read Thesis'
@@ -94,7 +93,6 @@ work:
     date_start: 2018-09-01
     date_end: 2025-05-31
     summary: |
-      Responsibilities include:
       - Migrated 48 Minitab textbook exercises into Python code using Pandas, NumPy, Statsmodels, and Matplotlib, automating end-to-end statistical workflows and reducing analysis time by 37%. 
       - Graded and reviewed over 200 assignments and held 5+ one-on-one office-hour sessions, resulting in a 15% increase in average student grades.
 
