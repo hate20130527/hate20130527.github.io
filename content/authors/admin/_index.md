@@ -98,6 +98,7 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
+# empty characters: https://emptycharacter.com/
 skills:
   - name: Technical Skills
     items:
@@ -122,6 +123,8 @@ skills:
         description: ''
         # percent: 
         icon: devicon/r
+      - name: '‎'
+        icon: ''
       - name: '‎'
         icon: ''
       - name: '‎'
@@ -171,6 +174,8 @@ skills:
         description: ''
         # percent: 
         # icon: 'custom/game'
+      - name: '‎'
+        icon: ''
       - name: '‎'
         icon: ''
       - name: '‎'
