@@ -59,12 +59,12 @@ education:
     date_start: 2022-09-01
     # date_end: 
     summary: |
-      Thesis on _[Time Series]_. Supervised by [Prof ](https://). Presented papers at a [] conferences with the contributions being published in [] journals.
+      Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
 
-      Courses included:
+    Courses included:
       - Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.
 
   - area: B.B.A. in Applied Statistics
@@ -74,12 +74,13 @@ education:
     summary: |
       GPA: 4.0/4.3
 
-      Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). Published in JCSA.
+      Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
+    # Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). 
     button:
       text: 'Read Thesis'
       url: 'https://www.airitilibrary.com/Article/Detail/05296528-202109-202109110010-202109110010-172-225'
 
-      Courses included:
+    Courses included:
       - Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
 
 work:
@@ -147,11 +148,11 @@ skills:
       - name: Tableau
         description: ''
         # icon: 'custom/tableau'
-        icon: :bar_chart:
+        icon: ':bar_chart:'
       - name: PowerBI
         description: ''
         # icon: 'custom/powerbi'
-        icon: :bar_chart:
+        icon: ':bar_chart:'
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -186,7 +187,7 @@ awards:
     date: '2024-07-30'
     awarder: TBIA
     # icon: 'custom/tbia'
-    icon: :1st_place_medal:
+    icon: ':1st_place_medal:'
     summary: |
       **Object**:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
@@ -201,7 +202,7 @@ awards:
     date: '2024-04-08'
     awarder: GLAD
     # icon: 'custom/glad'
-    icon: :toolbox:
+    icon: ':toolbox:'
     summary: |
       - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
       - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
@@ -212,7 +213,7 @@ awards:
     date: '2021-11-30'
     awarder: iPAS
     #icon: 'custom/ipas'
-    icon: :toolbox:
+    icon: ':toolbox:'
     summary: |
       - Proficient in data-oriented programming: data structures & objects, relational/NoSQL databases, data import/export, functions & control flow, debugging & performance tuning.
       - Skilled in data processing & analysis: data cleaning & summarization, feature transformation & extraction, big data concepts, probability & statistics fundamentals, exploratory data analysis (EDA), supervised & unsupervised learning.
