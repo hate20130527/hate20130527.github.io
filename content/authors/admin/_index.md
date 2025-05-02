@@ -126,7 +126,7 @@ skills:
         icon: ''
       - name: '‎'
         icon: ''
-  - name: Tools and Libraries
+  - name: Tools and Lib.
     items:
       - name: Pandas
         description: ''
