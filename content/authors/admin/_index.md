@@ -162,25 +162,25 @@ skills:
       - name: Yoga
         description: ''
         # percent: 
-        icon: 'custom/yoga'
+        # icon: 'custom/yoga'
       - name: penguin
         description: ''
         # percent:
-        icon: 'custom/penguin'
+        # icon: 'custom/penguin'
       - name: play game
         description: ''
         # percent: 
-        icon: 'custom/game'
-      - name: ''
-        icon: ''
-      - name: ''
-        icon: ''
-      - name: ''
-        icon: ''
-      - name: ''
-        icon: ''
-      - name: ''
-        icon: ''
+        # icon: 'custom/game'
+      # - name: ''
+      #   icon: ''
+      # - name: ''
+      #   icon: ''
+      # - name: ''
+      #   icon: ''
+      # - name: ''
+      #   icon: ''
+      # - name: ''
+      #   icon: ''
 
 languages:
   - name: Chinese
