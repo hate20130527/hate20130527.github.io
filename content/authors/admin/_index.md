@@ -74,7 +74,6 @@ education:
     date_end: 2021-06-30
     summary: |
       GPA: 4.0/4.3   
-
       :book: Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
 
       :telescope: Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
@@ -123,6 +122,10 @@ skills:
         description: ''
         # percent: 
         icon: devicon/r
+      - name: ''
+        icon: ''
+      - name: ''
+        icon: ''
   - name: Tools and Libraries
     items:
       - name: Pandas
@@ -168,6 +171,16 @@ skills:
         description: ''
         # percent: 
         icon: 'custom/game'
+      - name: ''
+        icon: ''
+      - name: ''
+        icon: ''
+      - name: ''
+        icon: ''
+      - name: ''
+        icon: ''
+      - name: ''
+        icon: ''
 
 languages:
   - name: Chinese
@@ -187,10 +200,10 @@ awards:
     awarder: TBIA
     # icon: 'custom/tbia'
     summary: |
-      **Object**:
+      **Object**:   
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
 
-      **Workflow**:
+      **Workflow**:   
       - **Data Acquisition**: Fetched species occurrence records (including longitude, latitude, and timestamp fields) from TBIA and iNaturalist APIs using Python.
       - **Data Cleaning & Standardization**: Imputed or removed missing/anomalous values, normalized field formats, and validated spatial accuracy.
       - **Interactive Visualization**: Developed a Tableau dashboard with dynamic filters for region and time, then embedded it into a web page.

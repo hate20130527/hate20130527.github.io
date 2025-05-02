@@ -1,9 +1,0 @@
-/* 假設 Skills 區塊最外層 class 是 .blox-block--skills */
-.blox-block--skills .block-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: row;
-    /* 讓每一欄都排 8 列，即使沒東西也保留空格 */
-    grid-template-rows: repeat(8, auto);
-  }
-  
