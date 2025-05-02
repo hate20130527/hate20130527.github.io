@@ -122,9 +122,9 @@ skills:
         description: ''
         # percent: 
         icon: devicon/r
-      - name: ''
+      - name: ' '
         icon: ''
-      - name: ''
+      - name: ' '
         icon: ''
   - name: Tools and Libraries
     items:
@@ -159,28 +159,28 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Yoga
+      - name: :lotus_position:Yoga
         description: ''
         # percent: 
         # icon: 'custom/yoga'
-      - name: penguin
+      - name: :penguin:penguin
         description: ''
         # percent:
         # icon: 'custom/penguin'
-      - name: play game
+      - name: :video_game:play game
         description: ''
         # percent: 
         # icon: 'custom/game'
-      # - name: ''
-      #   icon: ''
-      # - name: ''
-      #   icon: ''
-      # - name: ''
-      #   icon: ''
-      # - name: ''
-      #   icon: ''
-      # - name: ''
-      #   icon: ''
+      - name: ' '
+        icon: ''
+      - name: ' '
+        icon: ''
+      - name: ' '
+        icon: ''
+      - name: ' '
+        icon: ''
+      - name: ' '
+        icon: ''
 
 languages:
   - name: Chinese
