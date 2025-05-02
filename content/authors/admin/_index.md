@@ -122,9 +122,9 @@ skills:
         description: ''
         # percent: 
         icon: devicon/r
-      - name: ' '
+      - name: '‎'
         icon: ''
-      - name: ' '
+      - name: '‎'
         icon: ''
   - name: Tools and Libraries
     items:
@@ -149,10 +149,10 @@ skills:
       - name: Minitab
         description: ''
         icon: devicon/minitab
-      - name: Tableau
+      - name: :bar_chart:Tableau
         description: ''
         # icon: 'custom/tableau'
-      - name: PowerBI
+      - name: :bar_chart:PowerBI
         description: ''
         # icon: 'custom/powerbi'
   - name: Hobbies
@@ -171,15 +171,15 @@ skills:
         description: ''
         # percent: 
         # icon: 'custom/game'
-      - name: ' '
+      - name: '‎'
         icon: ''
-      - name: ' '
+      - name: '‎'
         icon: ''
-      - name: ' '
+      - name: '‎'
         icon: ''
-      - name: ' '
+      - name: '‎'
         icon: ''
-      - name: ' '
+      - name: '‎'
         icon: ''
 
 languages:
