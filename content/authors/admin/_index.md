@@ -3,7 +3,7 @@
 title: 鄒佳蓁
 
 # Name pronunciation (optional)
-name_pronunciation: Jia Zhen Zou
+name_pronunciation: Zou Jia Zhen
 
 # Full name (for SEO)
 first_name: Jia Zhen
@@ -54,25 +54,29 @@ interests:
   - Artificial Intelligence Applications
 
 education:
-  - area: master’s student in CSIF
-    institution: NUTC/NTCUST
+  - area: master’s student in Computer Science and Information Engineering
+    institution: NUTC / NTCUST
     date_start: 2022-09-01
     # date_end: 
     summary: |
+      Courses included:
+      - Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.
+
       Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
 
-    Courses included:
-      - Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.
+
 
   - area: B.B.A. in Applied Statistics
-    institution: NUTC/NTCUST
+    institution: NUTC / NTCUST
     date_start: 2017-09-01
     date_end: 2021-06-30
     summary: |
       GPA: 4.0/4.3
+      Courses included:
+        - Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
 
       Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
     # Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). 
@@ -80,12 +84,11 @@ education:
       text: 'Read Thesis'
       url: 'https://www.airitilibrary.com/Article/Detail/05296528-202109-202109110010-202109110010-172-225'
 
-    Courses included:
-      - Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
+
 
 work:
   - position: TA in Applied Statistics
-    company_name: NUTC/NTCUST
+    company_name: NUTC / NTCUST
     company_url: ''
     company_logo: ''
     date_start: 2018-09-01
@@ -148,11 +151,9 @@ skills:
       - name: Tableau
         description: ''
         # icon: 'custom/tableau'
-        icon: ':bar_chart:'
       - name: PowerBI
         description: ''
         # icon: 'custom/powerbi'
-        icon: ':bar_chart:'
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -172,9 +173,9 @@ skills:
 
 languages:
   - name: Chinese
-    # percent:
+    percent: 100
   - name: English
-    # percent: 
+    percent: 60
 
 
 # Awards.
@@ -187,7 +188,6 @@ awards:
     date: '2024-07-30'
     awarder: TBIA
     # icon: 'custom/tbia'
-    icon: ':1st_place_medal:'
     summary: |
       **Object**:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
@@ -202,7 +202,6 @@ awards:
     date: '2024-04-08'
     awarder: GLAD
     # icon: 'custom/glad'
-    icon: ':toolbox:'
     summary: |
       - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
       - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
@@ -213,13 +212,14 @@ awards:
     date: '2021-11-30'
     awarder: iPAS
     #icon: 'custom/ipas'
-    icon: ':toolbox:'
+
     summary: |
       - Proficient in data-oriented programming: data structures & objects, relational/NoSQL databases, data import/export, functions & control flow, debugging & performance tuning.
       - Skilled in data processing & analysis: data cleaning & summarization, feature transformation & extraction, big data concepts, probability & statistics fundamentals, exploratory data analysis (EDA), supervised & unsupervised learning.
 ---
 
 ## About Me
->> A rough start is the best place to start. :penguin:   
+> A rough start is the best place to start. :penguin:     
+
 :telescope: I'm interested in machine learning and data visualization.    
 :seedling: I'm learning to build workflow automation.    
