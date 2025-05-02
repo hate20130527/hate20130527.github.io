@@ -104,13 +104,13 @@ skills:
         # percent: 
         icon: devicon/python
       - name: Web crawler
-        description: 'requests, bs4'
+        # description: 'requests, bs4'
         icon: 'custom/webcrawler'
       - name: git/github
         description: ''
         icon: brands/github
       - name: Workflow Integration
-        description: 'Coordinate and integrate multiple AI tools for seamless collaboration.'
+        # description: 'Coordinate and integrate multiple AI tools for seamless collaboration.'
         icon: 'custom/workflow'
       - name: SQL
         description: ''
@@ -213,6 +213,6 @@ awards:
 ---
 
 ## About Me
-> A rough start is the best place to start. :penguin:
-:telescope: I'm interested in machine learning and data visualization. 
-:seedling: I'm learning to build workflow automation. 
+> A rough start is the best place to start. :penguin:   
+:telescope: I'm interested in machine learning and data visualization.    
+:seedling: I'm learning to build workflow automation.    
