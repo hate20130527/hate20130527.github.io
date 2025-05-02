@@ -213,5 +213,6 @@ awards:
 ---
 
 ## About Me
-
-I am a dedicated master’s candidate in Computer Science and Information Engineering at National Taichung University of Science and Technology, specializing in time series analysis, statistical machine learning, and data visualization. 
+> A rough start is the best place to start. :penguin:
+:telescope: I'm interested in machine learning and data visualization. 
+:seedling: I'm learning to build workflow automation. 
