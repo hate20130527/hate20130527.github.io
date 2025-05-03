@@ -3,7 +3,7 @@ title: Watch your back
 date: 2024-07-30
 external_link: https://taiwan-mountain-intro.notion.site/
 tags:
-  - Dashboard by Tableau
+  - Dashboard
   - Python
   - TBIA, iNaturalist
 ---
