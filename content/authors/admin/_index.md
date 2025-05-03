@@ -54,7 +54,7 @@ interests:
   - Artificial Intelligence Applications
 
 education:
-  - area: master’s student in Computer Science and Information Engineering
+  - area: master’s student in CSIE
     institution: NUTC / NTCUST
     date_start: 2022-09-01
     # date_end: 
