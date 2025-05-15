@@ -61,7 +61,7 @@ education:
     date_start: 2022-09-01
     # date_end: 
     summary: |
-      :book: Data Structures, Algorithms, C Programming, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
+      :book: Data Structures, Algorithms, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
 
       :telescope: Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
     button:
@@ -207,14 +207,31 @@ awards:
     awarder: TBIA
     # icon: 'custom/tbia'
     summary: |
-      **Object**:   
+      **Objective**:   
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
 
       **Workflow**:   
       - **Data Acquisition**: Fetched species occurrence records (including longitude, latitude, and timestamp fields) from TBIA and iNaturalist APIs using Python.
       - **Data Cleaning & Standardization**: Imputed or removed missing/anomalous values, normalized field formats, and validated spatial accuracy.
       - **Interactive Visualization**: Developed a Tableau dashboard with dynamic filters for region and time, then embedded it into a web page.
-  - title: ':toolbox: Artificial Intelligence Literacy - Specialist'
+  - title: ':2nd_place_medal: 2020 Project Competition Runner-up'
+    url: https://stat.nutc.edu.tw/
+    date: '2020-11-25'
+    awarder: Department of Applied Statistics, NUTC / NTCUST
+    summary: |
+      **Objective**:
+      This study analyzes the fluctuations of weekly influenza and complication case counts in Taiwan and builds forecasting models to evaluate their predictive performance. It finds that outpatient visits, emergency visits, and death counts exhibit clear seasonality, while severe local complication cases show intermittent patterns.
+
+      **Workflow**:
+      - **Data Collection**: Retrieved weekly data (Week 1 2008–Week 28 2020; 655 weeks) from the Taiwan CDC Infectious Disease Statistics Query System, with a forecasting horizon of Week 29–33 2020.  
+      - **Preprocessing & Stationarity Testing**: Applied log transformation and differencing as needed; verified stationarity via ADF, PP, and KPSS tests.  
+      - **Modeling**: Implemented ARIMA (incl. SARIMA selected by AIC), Croston’s method (with SBA adjustment for intermittent demand), and Holt‑Winters’ additive/multiplicative seasonal smoothing.  
+      - **Diagnostic Checking**: Assessed ARIMA residuals for white noise (LBQ test) and normality to validate assumptions.  
+      - **Forecast Evaluation**: Measured model accuracy over the forecasting period using MAD, MAPE, RMSE, and the correlation coefficient (ρ).  
+      - **Manuscript Preparation**: Authored and revised the paper according to Associate Editor (AE) and reviewer feedback, drafting detailed responses and implementing suggested analyses.
+
+
+  - title: ':toolbox: Artificial Intelligence Literacy Certification - Specialist'
     url: https://www2.gladworld.net/gladworld/CHT_AIL.php
     # certificate_url: 
     date: '2024-04-08'
@@ -224,20 +241,29 @@ awards:
       - AI Foundations & Knowledge Concepts: AI Overview; Big Data Advanced Concepts; Knowledge Representation
       - AI Technical Concepts: Image Recognition; Speech Recognition; Machine Learning; Deep Learning
       - AI Systems & Industry Applications: Smart City & Smart Home; Smart Medical Care & Public Health; Intelligent Education; New Retail & Customer Services; Intelligent Manufacturing; AI & Society Development
-  - title: ':toolbox: Big Data Analyst-Associate Level'
+
+  - title: ':toolbox: MOEA Certified Big Data Analyst - Associate Level'
     url: https://www.ipas.org.tw/bda
     # certificate_url: 
     date: '2021-11-30'
     awarder: iPAS
     #icon: 'custom/ipas'
-
     summary: |
       - Proficient in data-oriented programming: data structures & objects, relational/NoSQL databases, data import/export, functions & control flow, debugging & performance tuning.
       - Skilled in data processing & analysis: data cleaning & summarization, feature transformation & extraction, big data concepts, probability & statistics fundamentals, exploratory data analysis (EDA), supervised & unsupervised learning.
+
+  - title: ':toolbox: Certificate of Statistic Analysis - Outstanding Award'
+    url: https://www.casa.org.tw/content.asp?id=16
+    date: '2021-02-28'
+    awarder: CASA
+    summary: |
+      - Exam covered descriptive statistics, probability distributions, hypothesis testing, and related topics.  
+      - Awarded “Outstanding Award” for achieving a score of 90+ out of 100.
 ---
 
 ## About Me
 > A rough start is the best place to start. :penguin:     
 
-:telescope: I'm interested in machine learning and data visualization.    
-:seedling: I'm learning to build workflow automation.    
+:telescope:  I’m interested in machine learning and data visualization.  
+:wrench:     I’m restructuring my past work into clean, streamlined Python projects and developing brand‑new side projects.  
+:seedling:   I’m diving into learning and implementing automated workflows next.
