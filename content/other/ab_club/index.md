@@ -2,7 +2,7 @@
 title: NUTC Ambulance Club President
 date: 2024-06-30
 tags:
-  - Club
+  - club
   - leadership
   - student-organization
 ---
