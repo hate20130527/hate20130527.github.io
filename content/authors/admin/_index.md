@@ -219,10 +219,10 @@ awards:
     date: '2020-11-25'
     awarder: Department of Applied Statistics, NUTC / NTCUST
     summary: |
-      **Objective**:
+      **Objective**:   
       This study analyzes the fluctuations of weekly influenza and complication case counts in Taiwan and builds forecasting models to evaluate their predictive performance. It finds that outpatient visits, emergency visits, and death counts exhibit clear seasonality, while severe local complication cases show intermittent patterns.
 
-      **Workflow**:
+      **Workflow**:   
       - **Data Collection**: Retrieved weekly data (Week 1 2008–Week 28 2020; 655 weeks) from the Taiwan CDC Infectious Disease Statistics Query System, with a forecasting horizon of Week 29–33 2020.  
       - **Preprocessing & Stationarity Testing**: Applied log transformation and differencing as needed; verified stationarity via ADF, PP, and KPSS tests.  
       - **Modeling**: Implemented ARIMA (incl. SARIMA selected by AIC), Croston’s method (with SBA adjustment for intermittent demand), and Holt‑Winters’ additive/multiplicative seasonal smoothing.  
