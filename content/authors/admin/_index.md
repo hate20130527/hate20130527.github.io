@@ -46,6 +46,8 @@ profiles:
   #   url: 
   # - icon: academicons/orcid
   #   url: 
+  - icon: devicon/kaggle
+    url: https://www.kaggle.com/jiazhenzou
 
 interests:
   - Data Visualization
