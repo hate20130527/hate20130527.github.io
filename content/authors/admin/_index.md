@@ -56,7 +56,7 @@ interests:
   - Artificial Intelligence Applications
 
 education:
-  - area: master’s student in CSIE
+  - area: master’s student, CSIE
     institution: NUTC / NTCUST
     date_start: 2022-09-01
     # date_end: 
@@ -70,7 +70,7 @@ education:
 
 
 
-  - area: B.B.A. in Applied Statistics
+  - area: B.B.A., Applied Statistics
     institution: NUTC / NTCUST
     date_start: 2017-09-01
     date_end: 2021-06-30
@@ -87,15 +87,17 @@ education:
 
 
 work:
-  - position: TA in Applied Statistics
+  - position: Teaching Assistant(TA), Department of Applied Statistics
     company_name: NUTC / NTCUST
     company_url: ''
     company_logo: ''
     date_start: 2018-09-01
     date_end: 2025-05-31
     summary: |
-      - Migrated 48 Minitab textbook exercises into Python code using Pandas, NumPy, Statsmodels, and Matplotlib, automating end-to-end statistical workflows and reducing analysis time by 37%. 
-      - Graded and reviewed over 200 assignments and held 5+ one-on-one office-hour sessions, resulting in a 15% increase in average student grades.
+      - I was tasked with creating cost‑free Python‑based materials to replace commercial software workflows, ensuring accessible learning for every student.
+      - Migrated 48 textbook exercises into Python (Pandas, NumPy, Statsmodels, Matplotlib), automating workflows and cutting analysis time by 37%, enabling 48‑hour feedback loops.  
+      - Graded 500+ assignments and held 5+ one‑on‑one sessions, boosting average grades by 15%.
+
 
 
 # Skills
