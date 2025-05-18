@@ -94,9 +94,11 @@ work:
     date_start: 2018-09-01
     date_end: 2025-05-31
     summary: |
-      - I was tasked with creating cost‑free Python‑based materials to replace commercial software workflows, ensuring accessible learning for every student.
-      - Migrated 48 textbook exercises into Python (Pandas, NumPy, Statsmodels, Matplotlib), automating workflows and cutting analysis time by 37%, enabling 48‑hour feedback loops.  
-      - Graded 500+ assignments and held 5+ one‑on‑one sessions, boosting average grades by 15%.
+      - **Problem:** No legal digital Minitab resources for 50 students (\$150/book, \$1,800/license).  
+      - **Action & Result:**
+          - Developed free Python‑based teaching materials—migrated 48 exercises into Pandas/NumPy/Statsmodels/Matplotlib code;
+          - Automating workflows to cut analysis time by 37% (48‑hour feedback) and boosting average grades by 15% across 500+ assignments.
+
 
 
 
@@ -213,10 +215,13 @@ awards:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
 
       **Workflow**:   
-      - **Data Acquisition**: Fetched species occurrence records (including longitude, latitude, and timestamp fields) from TBIA and iNaturalist APIs using Python.
-      - **Data Cleaning & Standardization**: Imputed or removed missing/anomalous values, normalized field formats, and validated spatial accuracy.
-      - **Interactive Visualization**: Developed a Tableau dashboard with dynamic filters for region and time, then embedded it into a web page.
-  - title: ':2nd_place_medal: 2020 Project Competition Runner-up'
+          - **Problem:** In a one‑month Dataathon, our four‑member team—assembled on the same day after a pre‑event workshop—faced limited TBIA open data, inconsistent citizen‑science records, and missing geocoordinates, yet needed to build an actionable dashboard in one week(2 weeks of prep, 1 week of build).
+          - **Action & Result:** 
+            - Led data pipelines in Python (Pandas, NumPy, requests, pyinaturalist, datetime) to clean and standardize data—filtering to 500+ high‑quality records—and deployed an interactive Tableau dashboard in under 7 days;
+            - Earning 1st place out of 12 teams and a showcased our poster at the [Citizen Science Carnival](https://tbiadata.tw/zh-hant/news/detail/20).
+
+
+
     url: https://stat.nutc.edu.tw/
     date: '2020-11-25'
     awarder: Department of Applied Statistics, NUTC / NTCUST
