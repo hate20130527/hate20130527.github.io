@@ -215,13 +215,13 @@ awards:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
 
       **Workflow**:   
-          - **Problem:** In a one‑month Dataathon, our four‑member team—assembled on the same day after a pre‑event workshop—faced limited TBIA open data, inconsistent citizen‑science records, and missing geocoordinates, yet needed to build an actionable dashboard in one week(2 weeks of prep, 1 week of build).
-          - **Action & Result:** 
-            - Led data pipelines in Python (Pandas, NumPy, requests, pyinaturalist, datetime) to clean and standardize data—filtering to 500+ high‑quality records—and deployed an interactive Tableau dashboard in under 7 days;
-            - Earning 1st place out of 12 teams and a showcased our poster at the [Citizen Science Carnival](https://tbiadata.tw/zh-hant/news/detail/20).
+        - **Problem:** In a one‑month Dataathon, our four‑member team—assembled on the same day after a pre‑event workshop—faced limited TBIA open data, inconsistent citizen‑science records, and missing geocoordinates, yet needed to build an actionable dashboard in one week(2 weeks of prep, 1 week of build).
+        - **Action & Result:** 
+          - Led data pipelines in Python (Pandas, NumPy, requests, pyinaturalist, datetime) to clean and standardize data—filtering to 500+ high‑quality records—and deployed an interactive Tableau dashboard in under 7 days;
+          - Earning 1st place out of 12 teams and a showcased our poster at the [Citizen Science Carnival](https://tbiadata.tw/zh-hant/news/detail/20).
 
 
-
+  - title: ':2nd_place_medal: 2020 Project Competition Runner-up'
     url: https://stat.nutc.edu.tw/
     date: '2020-11-25'
     awarder: Department of Applied Statistics, NUTC / NTCUST
