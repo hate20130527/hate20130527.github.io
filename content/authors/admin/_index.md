@@ -95,7 +95,7 @@ work:
     date_end: 2025-05-31
     summary: |
       - **Problem:** No legal digital Minitab resources for 50 students (\$150/book, \$1,800/license).  
-      - **Action & Result:**
+      - **Action & Result:**   
           - Developed free Python‑based teaching materials—migrated 48 exercises into Pandas/NumPy/Statsmodels/Matplotlib code;
           - Automating workflows to cut analysis time by 37% (48‑hour feedback) and boosting average grades by 15% across 500+ assignments.
 
@@ -215,8 +215,8 @@ awards:
       This project integrates the distribution of common hazardous species in Taiwan’s mountainous regions with environmental factors using geospatial data. It delivers an interactive dashboard and web interface that enable users to quickly query and visualize information by season and region, enhancing hiking safety awareness. 
 
       **Workflow**:   
-        - **Problem:** In a one‑month Dataathon, our four‑member team—assembled on the same day after a pre‑event workshop—faced limited TBIA open data, inconsistent citizen‑science records, and missing geocoordinates, yet needed to build an actionable dashboard in one week(2 weeks of prep, 1 week of build).
-        - **Action & Result:** 
+        - **Problem:** In a one‑month Dataathon, our four‑member team—assembled on the same day after a workshop—faced limited TBIA open data, inconsistent citizen‑science records, and missing geocoordinates, yet needed to build an actionable dashboard in one week(2 weeks of prep, 1 week of build).
+        - **Action & Result:**    
           - Led data pipelines in Python (Pandas, NumPy, requests, pyinaturalist, datetime) to clean and standardize data—filtering to 500+ high‑quality records—and deployed an interactive Tableau dashboard in under 7 days;
           - Earning 1st place out of 12 teams and a showcased our poster at the [Citizen Science Carnival](https://tbiadata.tw/zh-hant/news/detail/20).
 
@@ -230,12 +230,11 @@ awards:
       This study analyzes the fluctuations of weekly influenza and complication case counts in Taiwan and builds forecasting models to evaluate their predictive performance. It finds that outpatient visits, emergency visits, and death counts exhibit clear seasonality, while severe local complication cases show intermittent patterns.
 
       **Workflow**:   
-      - **Data Collection**: Retrieved weekly data (Week 1 2008–Week 28 2020; 655 weeks) from the Taiwan CDC Infectious Disease Statistics Query System, with a forecasting horizon of Week 29–33 2020.  
-      - **Preprocessing & Stationarity Testing**: Applied log transformation and differencing as needed; verified stationarity via ADF, PP, and KPSS tests.  
-      - **Modeling**: Implemented ARIMA (incl. SARIMA selected by AIC), Croston’s method (with SBA adjustment for intermittent demand), and Holt‑Winters’ additive/multiplicative seasonal smoothing.  
-      - **Diagnostic Checking**: Assessed ARIMA residuals for white noise (LBQ test) and normality to validate assumptions.  
-      - **Forecast Evaluation**: Measured model accuracy over the forecasting period using MAD, MAPE, RMSE, and the correlation coefficient (ρ).  
-      - **Manuscript Preparation**: Authored and revised the paper according to Associate Editor (AE) and reviewer feedback, drafting detailed responses and implementing suggested analyses.
+      - **Problem:** In 2020, while global attention centered on COVID-19, influenza and its complications still ranked among Taiwan’s top 10 causes of death; we needed to understand its seasonal dynamics under pandemic conditions and build a reliable short-term forecasting model.
+      - **Action & Result:**   
+        - Collected and preprocessed 655 weeks of CDC flu data—applying log transforms, differencing, and stationarity tests—then implemented ARIMA/SARIMA, Croston’s, and Holt-Winters models in Python.
+        - Achieved short-term forecast accuracy with MAPE < 10% (as measured by MAD and RMSE) by the pipeline, providing insights to inform public health decisions.
+
 
 
   - title: ':toolbox: Artificial Intelligence Literacy Certification - Specialist'
