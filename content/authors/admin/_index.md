@@ -164,7 +164,7 @@ skills:
         # icon: 'custom/tableau'
       - name: :bar_chart:PowerBI
         description: ''
-        # icon: 'custom/powerbi'
+        icon: 'custom/powerbi'
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
