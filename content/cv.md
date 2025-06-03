@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 date: 2025-06-03
-type: landing           # 或者 theme 幫你設好的 resume / resume-pro page 類型
+type: resume           # theme choices: landing / resume / resume-pro
 sections:
   - block: resume-biography
     content:
