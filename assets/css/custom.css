@@ -1,0 +1,30 @@
+/* 1. 針對最外層 section，將其定位設為 relative，以便放置 ::before 遮罩 */
+.blox-resume-biography-3 {
+  position: relative;
+}
+
+/* 2. 增加半透明黑色遮罩 */
+.blox-resume-biography-3::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);   /* 半透明黑，可視需要調整 (0.3~0.6) */
+  z-index: 0;
+}
+
+/* 3. 讓內部文字容器位於遮罩之上 */
+.blox-resume-biography-3 .resume-biography {
+  position: relative;
+  z-index: 1;
+}
+
+/* 4. 調整文字為白色並加陰影 */
+.blox-resume-biography-3 h2,
+.blox-resume-biography-3 p,
+.blox-resume-biography-3 li,
+.blox-resume-biography-3 a {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}

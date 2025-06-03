@@ -3,6 +3,12 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+# CSS custom
+params:
+  customCSS:
+    - "css/custom.css"
+
+
 # Appearance
 appearance:
   mode: system
@@ -60,3 +66,4 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
