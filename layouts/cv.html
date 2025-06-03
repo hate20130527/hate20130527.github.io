@@ -10,27 +10,26 @@
       <link rel="stylesheet" href="{{ . | absURL }}" />
     {{ end }}
     <style>
-      /* 列印時的簡單樣式 */
+      /* 列印時優化：隱藏導覽列與頁尾，只顯示正文 */
       @media print {
-        body { font-size: 12pt; }
         header, footer, nav { display: none !important; }
-        .cv-content { margin: 1cm; }
+        .cv-container { margin: 0.5cm; font-size: 12pt; }
       }
     </style>
   </head>
   <body>
     <header>{{ partial "navbar.html" . }}</header>
-    <main class="cv-content container mx-auto px-4 py-8">
-      {{/* —— 1. 動態插入作者檔案內容 —— */}}
+    <main class="cv-container container mx-auto px-4 py-8">
+      {{/* —— 1. 從 authors/admin/_index.md 取出 Biography 等內容 —— */}}
       {{ $author := site.GetPage "authors" "admin" }}
       {{ with $author }}
         <section id="author-info" class="mb-8">
-          {{/* .Render "page" 會解析作者頁面的 Markdown 及 shortcodes */}}
+          {{/* 用 Render "page" 讓該頁面整段 Markdown 都被解析 */}}
           {{ .Render "page" | safeHTML }}
         </section>
       {{ end }}
 
-      {{/* —— 2. 插入 CV Markdown 本體區塊 —— */}}
+      {{/* —— 2. 顯示 content/cv/index.md 裡的 Education、Experience、Skills 等 —— */}}
       <article class="prose mx-auto">
         {{ .Content }}
       </article>
