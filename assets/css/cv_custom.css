@@ -78,26 +78,33 @@
    移除背景/陰影/邊框，強制純文字黑白列表
    ----------------------------------------------- */
 
-/* 1. 一律隱藏所有區塊（blox-block）的 SVG 圖示，包括社群 icon、技能 icon、獎項 icon、語言 icon 等 */
-.blox-block--resume-biography svg,
-.blox-block--resume-experience svg,
-.blox-block--resume-skills svg,
-.blox-block--resume-awards svg,
-.blox-block--resume-languages svg,
-.blox-block--resume-biography .profile-icons svg,
-.blox-block--resume-skills .skill-icon svg,
-.blox-block--resume-experience .item-icon svg,
-.blox-block--resume-awards .award-icon svg,
-.blox-block--resume-languages .language-icon svg {
+/* =======================================
+   cv_custom.css：針對 /cv/ 頁面
+   1. 隱藏所有 Resume Blocks 的 SVG 圖示
+   2. 移除背景、陰影、邊框
+   3. 強制純文字黑白版型、單欄排版
+   ======================================= */
+
+/* 1. 隱藏所有 BloCk 內以及 Resume 區塊裡的 SVG、Icon（高權重指定） */
+html body .blox-block--resume-biography svg,
+html body .blox-block--resume-experience svg,
+html body .blox-block--resume-skills svg,
+html body .blox-block--resume-awards svg,
+html body .blox-block--resume-languages svg,
+html body .blox-block--resume-biography .profile-icons svg,
+html body .blox-block--resume-skills .skill-icon svg,
+html body .blox-block--resume-experience .item-icon svg,
+html body .blox-block--resume-awards .award-icon svg,
+html body .blox-block--resume-languages .language-icon svg {
   display: none !important;
 }
 
-/* 2. 移除 .profile-icons（社群連結）多餘內外距，僅保留文字鏈結(如果有定義 profiles) */
-.blox-block--resume-biography .profile-icons {
+/* 2. 移除 .profile-icons 裡的 Margin/Padding，保留文字連結 */
+html body .blox-block--resume-biography .profile-icons {
   margin: 0 !important;
   padding: 0 !important;
 }
-.blox-block--resume-biography .profile-icons a {
+html body .blox-block--resume-biography .profile-icons a {
   display: inline-block !important;
   margin: 0 0.25rem !important;
   font-size: 0.9rem !important;
@@ -105,23 +112,23 @@
   text-decoration: underline !important;
 }
 
-/* 3. 移除所有 resume 區塊預設的卡片樣式（背景色、陰影、邊框），統一成純白背景 */
-.blox-block--resume-biography,
-.blox-block--resume-experience,
-.blox-block--resume-skills,
-.blox-block--resume-awards,
-.blox-block--resume-languages {
+/* 3. 移除所有 Resume Blocks 的卡片樣式：背景色、陰影、邊框 */
+html body .blox-block--resume-biography,
+html body .blox-block--resume-experience,
+html body .blox-block--resume-skills,
+html body .blox-block--resume-awards,
+html body .blox-block--resume-languages {
   background-color: transparent !important;
   box-shadow: none !important;
   border: none !important;
 }
 
-/* 4. 調整各區塊標題字型、間距，讓版面更緊湊 */
-.blox-block--resume-biography h1,
-.blox-block--resume-experience h2,
-.blox-block--resume-skills h2,
-.blox-block--resume-awards h2,
-.blox-block--resume-languages h2 {
+/* 4. 縮小區塊標題字型、調整顏色，確保純文字黑白風格 */
+html body .blox-block--resume-biography h1,
+html body .blox-block--resume-experience h2,
+html body .blox-block--resume-skills h2,
+html body .blox-block--resume-awards h2,
+html body .blox-block--resume-languages h2 {
   font-size: 1.2rem !important;
   font-weight: 600 !important;
   margin-bottom: 0.4rem !important;
@@ -130,42 +137,42 @@
   text-shadow: none !important;
 }
 
-/* 5. 把每個區塊內的列表項目強制單欄顯示，縮小項目之間的間距 */
-.blox-block--resume-experience .collection-item,
-.blox-block--resume-skills .collection-item,
-.blox-block--resume-awards .collection-item,
-.blox-block--resume-languages .collection-item {
+/* 5. 強制 Resume Blocks 列表項目為單欄顯示，並縮小間距 */
+html body .blox-block--resume-experience .collection-item,
+html body .blox-block--resume-skills .collection-item,
+html body .blox-block--resume-awards .collection-item,
+html body .blox-block--resume-languages .collection-item {
   display: block !important;
   width: 100% !important;
   margin-bottom: 0.4rem !important;
   padding: 0 !important;
 }
 
-/* 6. 列印模式下 (PDF)：隱藏 header、footer、nav、site-banner、site-footer，並強制白底黑字 */
+/* 6. 列印模式 (PDF)：隱藏所有 header、footer、nav、site-banner、site-footer；強制黑白 */
 @media print {
-  header,
-  footer,
-  nav,
-  .site-banner,
-  .site-footer {
+  html body header,
+  html body footer,
+  html body nav,
+  html body .site-banner,
+  html body .site-footer {
     display: none !important;
   }
-  body {
+  html body {
     margin: 1cm !important;
     font-size: 12pt !important;
     color: #000 !important;
     background: transparent !important;
   }
-  a {
+  html body a {
     color: #000 !important;
     text-decoration: underline !important;
   }
-  /* 針對可能殘留的背景色或圖示再做一次覆蓋 */
-  svg,
-  img {
+  /* 再次隱藏所有圖示與圖片，並移除所有背景 */
+  html body svg,
+  html body img {
     display: none !important;
   }
-  * {
+  html body * {
     background: transparent !important;
   }
 }
