@@ -1,6 +1,7 @@
-{{/* layouts/partials/hooks/head-end/disable-header.html */}}
-{{ if and (not (eq .File nil)) (eq .File.BaseFileName "cv") }}
-  <style>
-    header, nav { display: none !important; }
-  </style>
+{{ with .File }}
+  {{ if eq .BaseFileName "cv" }}
+    <style>
+      header, nav { display: none !important; }
+    </style>
+  {{ end }}
 {{ end }}

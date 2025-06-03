@@ -1,4 +1,4 @@
-/* 1. 去掉所有社群／技能 icon（SVG 圖示） */
+/* 1. 隱藏所有區塊裡的 SVG 圖示：社群 icon、技能 icon、獎項 icon、語言 icon */
 .resume-biography .profile-icons svg,
 .resume-experience .item-icon svg,
 .resume-skills .skill-icon svg,
@@ -7,61 +7,67 @@
   display: none !important;
 }
 
-/* 2. 去掉整個「社群圖示」區塊的外框或 spacing */
+/* 2. 簡化 .profile-icons 的 spacing，保留文字連結 (若有定義 profiles) */
 .resume-biography .profile-icons {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .resume-biography .profile-icons a {
-  display: inline-block;
-  margin: 0 0.25rem;
-  font-size: 0.85rem; /* 只顯示文字，去掉圖示後若要留文字可保留此行 */
+  display: inline-block !important;
+  margin: 0 0.25rem !important;
+  font-size: 0.9rem !important;
+  color: inherit !important;
+  text-decoration: underline !important;
 }
 
-/* 3. 強制所有區塊變成純文字列表（去掉卡片、背景色） */
-.resume-experience,
-.resume-skills,
-.resume-awards,
-.resume-languages {
+/* 3. 移除所有 resume 系列區塊的背景、陰影、邊框 */
+[class*="blox-block--resume"] {
   background-color: transparent !important;
   box-shadow: none !important;
   border: none !important;
 }
 
-/* 4. 縮小標題字型，統一純文字風格 */
+/* 4. 調整各區塊標題字型及對齊 */
 .resume-biography h1,
 .resume-experience h2,
 .resume-skills h2,
 .resume-awards h2,
 .resume-languages h2 {
-  font-size: 1.25rem !important;
+  font-size: 1.2rem !important;
   font-weight: 600 !important;
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.4rem !important;
+  color: #000 !important;
+  background: none !important;
+  text-shadow: none !important;
 }
 
-/* 5. 欄位間距全體縮小，改為單欄 100% 寬度 */
+/* 5. 把各項目強制改為單欄顯示、縮小間距 */
 .resume-experience .collection-item,
 .resume-skills .collection-item,
 .resume-awards .collection-item,
 .resume-languages .collection-item {
   display: block !important;
   width: 100% !important;
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.4rem !important;
+  padding: 0 !important;
 }
 
-/* 6. 列印優化：隱藏頁首、頁尾、邊欄，使用單純黑白文本 */
+/* 6. 針對列印模式 (PDF) 再做進一步優化 */
 @media print {
+  /* 隱藏所有 header、footer、nav、site-banner、site-footer */
   header, footer, nav, .site-banner, .site-footer {
     display: none !important;
   }
+  /* 全域文字風格：黑白、無背景 */
   body {
     margin: 1cm !important;
     font-size: 12pt !important;
     color: #000 !important;
     background: transparent !important;
   }
+  /* 讓超連結在 PDF 內仍可看見，顏色也是黑色底下有底線 */
   a {
-    color: black !important;
+    color: #000 !important;
     text-decoration: underline !important;
   }
 }

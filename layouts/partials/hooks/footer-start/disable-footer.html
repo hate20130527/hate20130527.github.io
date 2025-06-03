@@ -1,5 +1,7 @@
-{{- if eq .File.BaseFileName "cv" -}}
-  <style>
-    footer { display: none !important; }
-  </style>
-{{- end -}}
+{{ with .File }}
+  {{ if eq .BaseFileName "cv" }}
+    <style>
+      footer { display: none !important; }
+    </style>
+  {{ end }}
+{{ end }}
