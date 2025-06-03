@@ -1,5 +1,6 @@
-{{- if eq .File.BaseFileName "cv" -}}
+{{/* layouts/partials/hooks/head-end/disable-header.html */}}
+{{ if and (isset . "File") (eq .File.BaseFileName "cv") }}
   <style>
     header, nav { display: none !important; }
   </style>
-{{- end -}}
+{{ end }}
