@@ -1,0 +1,40 @@
+{{/* layouts/cv.html */}}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ partial "head.html" . }}
+    {{ range .Site.Params.customCSS }}
+      <link rel="stylesheet" href="{{ . | absURL }}" />
+    {{ end }}
+    <style>
+      /* 列印時的簡單樣式 */
+      @media print {
+        body { font-size: 12pt; }
+        header, footer, nav { display: none !important; }
+        .cv-content { margin: 1cm; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>{{ partial "navbar.html" . }}</header>
+    <main class="cv-content container mx-auto px-4 py-8">
+      {{/* —— 1. 動態插入作者檔案內容 —— */}}
+      {{ $author := site.GetPage "authors" "admin" }}
+      {{ with $author }}
+        <section id="author-info" class="mb-8">
+          {{/* .Render "page" 會解析作者頁面的 Markdown 及 shortcodes */}}
+          {{ .Render "page" | safeHTML }}
+        </section>
+      {{ end }}
+
+      {{/* —— 2. 插入 CV Markdown 本體區塊 —— */}}
+      <article class="prose mx-auto">
+        {{ .Content }}
+      </article>
+    </main>
+    <footer>{{ partial "footer.html" . }}</footer>
+  </body>
+</html>
