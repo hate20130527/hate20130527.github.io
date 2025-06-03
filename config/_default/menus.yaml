@@ -23,7 +23,7 @@ main:
     url: projects/
     weight: 30
   - name: CV
-    ual: cv/
+    url: cv/
     weight: 40
   - name: Others
     url: other/
