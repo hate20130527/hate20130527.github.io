@@ -1,16 +1,12 @@
 ---
 title: "Curriculum Vitae"
 date: 2025-06-03
-type: resume           # theme choices: landing / resume / resume-pro
+type: landing           # theme choices: landing / resume / resume-pro
 sections:
   - block: resume-biography
     content:
       # "username" 要跟 content/authors 下的資料夾名稱相同
       username: admin
-      # 若想在 Biography 下加一個「下載履歷（PDF）」按鈕，可參考：
-      # button:
-      #   text: "下載履歷"
-      #   url: "uploads/resume.pdf"
   - block: resume-experience
     content:
       username: admin
@@ -34,4 +30,6 @@ sections:
     content:
       title: "Languages"
       username: admin
+    design:
+      show_language_percentage: false
 ---

@@ -1,0 +1,67 @@
+/* 1. 去掉所有社群／技能 icon（SVG 圖示） */
+.resume-biography .profile-icons svg,
+.resume-experience .item-icon svg,
+.resume-skills .skill-icon svg,
+.resume-awards .award-icon svg,
+.resume-languages .language-icon svg {
+  display: none !important;
+}
+
+/* 2. 去掉整個「社群圖示」區塊的外框或 spacing */
+.resume-biography .profile-icons {
+  margin: 0;
+  padding: 0;
+}
+.resume-biography .profile-icons a {
+  display: inline-block;
+  margin: 0 0.25rem;
+  font-size: 0.85rem; /* 只顯示文字，去掉圖示後若要留文字可保留此行 */
+}
+
+/* 3. 強制所有區塊變成純文字列表（去掉卡片、背景色） */
+.resume-experience,
+.resume-skills,
+.resume-awards,
+.resume-languages {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 4. 縮小標題字型，統一純文字風格 */
+.resume-biography h1,
+.resume-experience h2,
+.resume-skills h2,
+.resume-awards h2,
+.resume-languages h2 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* 5. 欄位間距全體縮小，改為單欄 100% 寬度 */
+.resume-experience .collection-item,
+.resume-skills .collection-item,
+.resume-awards .collection-item,
+.resume-languages .collection-item {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* 6. 列印優化：隱藏頁首、頁尾、邊欄，使用單純黑白文本 */
+@media print {
+  header, footer, nav, .site-banner, .site-footer {
+    display: none !important;
+  }
+  body {
+    margin: 1cm !important;
+    font-size: 12pt !important;
+    color: #000 !important;
+    background: transparent !important;
+  }
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+}
