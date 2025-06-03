@@ -269,18 +269,10 @@ awards:
 ---
 
 ## About Me
-> A rough start is the best place to start. :penguin:     
+> A rough start is the best place to start.      
 
-A cautious, curious, and insight-driven analyst with a strong interest in turning real-world data into decisions that matter.
+:penguin: A cautious, curious, and insight-driven analyst with a strong interest in turning real-world data into decisions that matter.
 
-:telescope:  I’m interested in machine learning and data visualization.  
-
-  >  I specialize in transforming unstructured public datasets into automated, visualized dashboards using Python, SQL, and Tableau.   
-
-:wrench:     I’m restructuring my past work into clean, streamlined Python projects and developing brand‑new side projects.   
-
-  >  Currently focused on redesigning my past academic projects into reusable data pipelines and dashboards.
-     
-:seedling:   I’m diving into learning and implementing automated workflows next.   
-
-  >  My workflows prioritize accuracy, reproducibility, and accessibility—especially when working with limited resources and cross-team collaborations.   
+:telescope:  I specialize in transforming unstructured public datasets into automated, visualized dashboards using Python, SQL, and Tableau.   
+:wrench:     I’m restructuring my past work into clean, streamlined Python projects and developing brand‑new side projects.    
+:seedling:   I’m diving into learning and implementing automated workflows next.  
