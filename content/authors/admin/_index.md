@@ -63,10 +63,11 @@ education:
     summary: |
       :book: Data Structures, Algorithms, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
 
-      :telescope: Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+
+    # :telescope: Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
 
 
 
