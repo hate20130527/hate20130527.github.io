@@ -1,7 +1,11 @@
 {{ with .File }}
   {{ if eq .BaseFileName "cv" }}
     <style>
-      header, nav { display: none !important; }
+      /* header, nav { display: none !important; } */
+      /* 隱藏網站的 header、navbar */
+      header, nav, .site-banner {
+        display: none !important;
+      }
     </style>
   {{ end }}
 {{ end }}
