@@ -22,8 +22,8 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: CV
-    url: cv/
+  # - name: CV
+  #   url: cv/
     weight: 40
   - name: Others
     url: other/
