@@ -7,7 +7,7 @@
 params:
   customCSS:
     - "css/custom.css"
-    - "css/cv_custom.css"
+    # - "css/cv_custom.css"
 
 
 # Appearance
