@@ -1,7 +1,8 @@
 ---
 title: "Curriculum Vitae"
 date: 2025-06-03
-type: landing           # theme choices: landing / resume / resume-pro
+type: "page"           # theme choices: landing / resume / resume-pro
+layout: "index"
 sections:
   - block: resume-biography
     content:

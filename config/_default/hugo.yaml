@@ -9,6 +9,14 @@ title: Jia Zhen Zou
 baseURL: 'https://example.com/'
 
 ############################
+## theme
+############################
+
+theme:
+  - "HugoBlox/theme-academic-cv"
+  - "cjshearer/modern-hugo-resume"
+
+############################
 ## LANGUAGE
 ############################
 
