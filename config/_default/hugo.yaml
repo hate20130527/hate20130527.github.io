@@ -14,7 +14,8 @@ baseURL: 'https://example.com/'
 
 theme:
   - "theme-academic-cv"
-  - "modern-hugo-resume"
+  # - "modern-hugo-resume"
+  - "hugo-formatting-theme"
 
 ############################
 ## LANGUAGE
