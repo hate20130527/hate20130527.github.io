@@ -13,8 +13,8 @@ baseURL: 'https://example.com/'
 ############################
 
 theme:
-  - "HugoBlox/theme-academic-cv"
-  - "cjshearer/modern-hugo-resume"
+  - "github.com/HugoBlox/hugo-blox-builder/starters/academic-cv"
+  - "github.com/cjshearer/modern-hugo-resume"
 
 ############################
 ## LANGUAGE
