@@ -62,7 +62,7 @@ education:
     # date_end: 
     summary: |
       - 2022 6th Hon Hai Whale Scholarship for University Students.   
-      :book: Data Structures, Algorithms, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
+        :book: Data Structures, Algorithms, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
 
 
     # :telescope: Thesis on _[Time Series]_.  Presented papers at a [] conferences with the contributions being published in [] journals.
@@ -78,9 +78,9 @@ education:
     date_end: 2021-06-30
     summary: |
       GPA: 4.0 / 4.3   
-        - :1st_place_medal: 2021 Graduated as the Highest Academic Performer in Applied Statistics. 
-        - 2019 Chinese Statistical Association Statistics Scholarship.
-      :book: Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
+        - :1st_place_medal: 2021 Graduated as the Highest Academic Performer in Applied Statistics.    
+        - 2019 Chinese Statistical Association Statistics Scholarship.   
+          :book: Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments.   
 
       :telescope: Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
     # Supervised by [Prof Jau-Chuan Ke](http://web.nutc.edu.tw/~jauchuan/). 
