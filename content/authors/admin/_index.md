@@ -61,6 +61,7 @@ education:
     date_start: 2022-09-01
     # date_end: 
     summary: |
+      - 2022 6th Hon Hai Whale Scholarship for University Students.   
       :book: Data Structures, Algorithms, Mathematical Optimization, Database Systems, Information Security, Computer Networks, Image Recognition, Image Processing, and Data Mining.   
 
 
@@ -76,7 +77,9 @@ education:
     date_start: 2017-09-01
     date_end: 2021-06-30
     summary: |
-      GPA: 4.0/4.3   
+      GPA: 4.0 / 4.3   
+        - :1st_place_medal: 2021 Graduated as the Highest Academic Performer in Applied Statistics. 
+        - 2019 Chinese Statistical Association Statistics Scholarship.
       :book: Statistics, Statistical software, Time series analysis, Multivariate statistics, Data mining, Design of experiments
 
       :telescope: Thesis on _Study and Forecast of Cases of Flu and Their Complications_. Published in JCSA.
@@ -237,7 +240,7 @@ awards:
         - Achieved short-term forecast accuracy with MAPE < 10% (as measured by MAD and RMSE) by the pipeline, providing insights to inform public health decisions.
 
 
-
+certifications:
   - title: ':toolbox: Artificial Intelligence Literacy Certification - Specialist'
     url: https://www2.gladworld.net/gladworld/CHT_AIL.php
     # certificate_url: 
