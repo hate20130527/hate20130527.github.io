@@ -54,7 +54,6 @@ timeout: 600000
 taxonomies:
   author: authors
   tag: tags
-  certification: "certifications"
   publication_type: publication_types
 markup:
   _merge: deep

@@ -239,8 +239,6 @@ awards:
         - Collected and preprocessed 655 weeks of CDC flu data—applying log transforms, differencing, and stationarity tests—then implemented ARIMA/SARIMA, Croston’s, and Holt-Winters models in Python.
         - Achieved short-term forecast accuracy with MAPE < 10% (as measured by MAD and RMSE) by the pipeline, providing insights to inform public health decisions.
 
-
-certifications:
   - title: ':toolbox: Artificial Intelligence Literacy Certification - Specialist'
     url: https://www2.gladworld.net/gladworld/CHT_AIL.php
     # certificate_url: 
